@@ -1,0 +1,4 @@
+{
+    "connection_string": "host=localhost user=postgres password=postgres port=5432 dbname=pokemon_db sslmode=disable TimeZone=Asia/Bangkok",
+    "port": 8080
+}

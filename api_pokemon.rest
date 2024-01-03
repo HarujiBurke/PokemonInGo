@@ -1,0 +1,49 @@
+@host = localhost:8080
+
+
+// Create Product
+
+# @name rdpAuth
+POST http://{{host}}/api/pokemons HTTP/1.1
+content-type: application/json
+    
+{
+    "name": "pikachu",
+    "description": "a electric pokemon",
+    "weight": 100
+}
+
+###
+
+@id ={{rdpAuth.response.body.$.id}}
+
+###
+
+// Get Product By ID
+GET http://{{host}}/api/pokemons/{{id}} HTTP/1.1
+content-type: application/json
+
+###
+
+// Get All pokemons
+GET http://{{host}}/api/pokemons/ HTTP/1.1
+content-type: application/json
+
+###
+
+// Update Product
+PUT http://{{host}}/api/pokemons/{{id}} HTTP/1.1
+content-type: application/json
+
+{
+    "name": "Pikachu",
+    "description": "a cute electric pokemon",
+    "weight": 100
+}
+
+###
+
+// Delete Product
+DELETE http://{{host}}/api/pokemons/{{id}} HTTP/1.1
+content-type: application/json
+    
