@@ -1,3 +1,5 @@
+Accutally, I change it into pokemon for fun
+
 # Implementing CRUD in GoLang REST API with Mux & GORM
 
 ![CRUD in GoLang REST API with Mux & GORM](https://codewithmukesh.com/wp-content/uploads/2022/03/CRUD-in-Golang-REST-API-with-Mux-GORM-Simple-Guide.png)
