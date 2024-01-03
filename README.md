@@ -1,4 +1,4 @@
-Accutally, I change it into pokemon for fun
+Accutally, I changed it into pokemon for fun
 
 # Implementing CRUD in GoLang REST API with Mux & GORM
 
